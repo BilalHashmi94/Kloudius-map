@@ -362,7 +362,7 @@ const Home = () => {
             {selectedShop?.photo ? (
               <Image
                 source={{
-                  uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${selectedShop?.photo}&key=AIzaSyAonYxqpaai1tVYGy35_gLDxk59FmP9pLg`,
+                  uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${selectedShop?.photo}&key=yourapikey`,
                 }}
                 style={{
                   width: 100,
